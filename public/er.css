@@ -1,0 +1,224 @@
+@media (max-width :992px){
+    #carouselExampleIndicators img{
+        height: 50vh !important;
+    }
+    #carouselExampleIndicators{
+        margin-top:20px;
+    }
+}
+.card{
+   
+    box-shadow: 0 0 6px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-right:3%;
+    margin-bottom: 50px;
+    transition: transform 0.4s ease-in-out , boxshadow 0.3s ease-in-out;
+  
+  }
+  .card-body{
+    text-align: center;
+    padding: 6px;
+    margin-top: 40px;
+ 
+  
+  }
+  .card:hover .card-body{
+    transition: right 0.3s ease-in-out;
+  }
+  .card-group{
+    box-shadow: 0 0 6px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-right:3%;
+    margin-bottom: 50px;
+  
+  }
+  .enjoy{
+    text-decoration: underline;
+    text-align: center;
+      text-decoration: none;
+        background-color: rgb(218, 221, 238);
+        height: 40%;
+        width: 50%;
+        margin-top: 70px;
+       margin: 240px;
+      }
+
+  .walla{
+    text-align: center;
+      text-decoration: none;
+    margin: 30px;
+    background-color: rgba(6, 2, 20, 0.521);
+
+  }
+  body{
+      background-color: rgba(200, 196, 228, 0.521);
+  }
+ 
+  p {
+    text-align: center;
+    color:rgb(22, 20, 20);
+    
+  }
+
+  
+  
+ a{
+   
+  color:rgba(12, 13, 14, 0.733);
+  text-align: center;
+   
+
+  }
+  
+  
+  .btn{
+    text-align: center;
+    padding: 10px 20px;
+    background-color: darkslategrey;
+    color: aliceblue;
+    box-shadow:  0 7px 7px black;
+    border: none;
+    transition: boxshadow 0.3s ease-in-out,tranfrom 0.3s ease-in-out;
+  
+  }
+  h1 {
+
+    text-align: center;
+      color:black;
+  
+    } 
+  .joy{
+    margin-top:0; 
+  }
+  header{
+    background-color: rgb(7, 6, 6);
+  }
+  .categories .bg-white{
+    transition:background-color 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .categories .bg-white :hover{
+    background-color: darkslategray !important;
+    color:white !important;
+
+  }
+  .owl-carousel .owl-prev , .owl-carousel .owl-next{
+    position: absolute;
+    top: 25%;
+    background-color: blueviolet !important;
+    border-radius: 50%;
+    line-height: 17px;
+  }
+.bam{
+  color:rgba(6, 0, 15, 0.897);
+  text-align: center;
+}
+.var{
+  background-color: rgba(8, 3, 19, 0.863);
+}
+
+
+
+.nal{
+  text-align: center;
+  color:rgb(22, 20, 20);
+  width: 50%;
+  height: 30%;
+}
+.ban{
+  text-align: center;
+    color:rgba(10, 2, 19, 0.911);
+ 
+  }
+  fieldset{
+    text-align: center;
+    margin-right: 100px;
+    padding-left: 70px;
+  }
+  input{
+text-align: center;
+width: 50px;
+
+  }
+  .form{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(231, 214, 214, 0.548);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 103;
+
+  }
+.login-form{
+  width: 420px;
+  padding: 20px 10px;
+  background-color: rgba(206, 206, 218, 0.856);
+  box-shadow:   2px 2px 30px darkgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+
+  
+}
+.form-btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  
+}
+.login-form form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  margin: 7px 2px 2px;
+}
+.login-form strong{
+  color: #000;
+  font-size: 2rem;
+  margin: 2px 7px 7px 7px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+
+}
+.login-form input{
+  width:  90%;
+  height: 45px;
+  margin: 6px 0px;
+  padding: 0px 10px;
+  border: 2px solid aquamarine;
+  border-radius: 7px;
+  outline: none;
+
+
+}
+.form-cancel{
+ text-align: right;
+  color: azure;
+}
+.icons{
+right: 20px;
+    font-size: 30px;
+    position: absolute;
+  
+}
